@@ -1,14 +1,14 @@
-var APP_PREFIX = 'testServiceworker_'     // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = 'v1'                        // Version of the off-line cache (change this value everytime you want to update cache)
-var CACHE_NAME = APP_PREFIX + VERSION
+var APP_PREFIX = 'testServiceworker_';     // Identifier for this app (this needs to be consistent across every cache update)
+var VERSION = 'v1';                        // Version of the off-line cache (change this value everytime you want to update cache)
+var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [                              // Add URL you want to cache in this list.
-  '/test/',                               // If you have separate JS/CSS files,
-  '/test/index.html',                     // add path to those files here
-  '/test/src/css/style.css',
-  '/test/src/img/logo.svg',
-  '/test/app.js',
-  '/test/manifest.json'
-]
+  '/leonardob.dev/',                               // If you have separate JS/CSS files,
+  '/leonardob.dev/index.html',                     // add path to those files here
+  '/leonardob.dev/src/css/style.css',
+  '/leonardob.dev/src/img/logo.svg',
+  '/leonardob.dev/app.js',
+  '/leonardob.dev/manifest.json'
+];
 
 // Respond with cached resources
 self.addEventListener('fetch', async function (e) {
@@ -27,7 +27,7 @@ self.addEventListener('fetch', async function (e) {
       // return request || fetch(e.request)
     })
   )
-})
+});
 
 // Cache resources
 self.addEventListener('install', async function (e) {
@@ -37,7 +37,7 @@ self.addEventListener('install', async function (e) {
       return cache.addAll(URLS)
     })
   )
-})
+});
 
 // Delete outdated caches
 self.addEventListener('activate', async function (e) {
@@ -53,10 +53,10 @@ self.addEventListener('activate', async function (e) {
 
       return Promise.all(keyList.map(async function (key, i) {
         if (cacheWhitelist.indexOf(key) === -1) {
-          console.log('deleting cache : ' + keyList[i] )
+          console.log('deleting cache : ' + keyList[i])
           return caches.delete(keyList[i])
         }
       }))
     })
   )
-})
+});
