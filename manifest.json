@@ -33,7 +33,7 @@
 			"src": "/leonardob.dev/src/img/x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
-			"purpose": "maskable"
+			"purpose": "any"
 		},
 		{
 			"src": "/leonardob.dev/src/img/x384.png",
@@ -51,7 +51,7 @@
 			"src": "/leonardob.dev/src/img/x1024.png",
 			"sizes": "1024x1024",
 			"type": "image/png",
-			"purpose": "any"
+			"purpose": "maskable"
 		}
 	],
 	"theme_color": "#000000",
