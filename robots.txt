@@ -4,5 +4,5 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://leonardobdev.github.io/leonardob.dev
-Sitemap: https://leonardobdev.github.io/leonardob.dev/
+Sitemap: https://leonardob.dev
+Sitemap: https://leonardob.dev/
