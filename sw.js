@@ -4,13 +4,13 @@ var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [                              // Add URL you want to cache in this list.
   '/leonardob.dev/',                               // If you have separate JS/CSS files,
   '/leonardob.dev/index.html',                     // add path to those files here
-  '/leonardob.dev/src/css/style.css',
-  '/leonardob.dev/src/img/logo.svg',
   '/leonardob.dev/app.js',
-  '/leonardob.dev/favicon.ico',
-  '/leonardob.dev/animated_favicon1.gif',
   '/leonardob.dev/sw.js',
-  '/leonardob.dev/manifest.json'
+  '/leonardob.dev/manifest.json',
+  '/leonardob.dev/src/img/logo.svg',
+  '/leonardob.dev/src/img/favicon.ico',
+  '/leonardob.dev/src/img/animated_favicon1.gif',
+  '/leonardob.dev/src/css/style.css'
 ];
 
 // Respond with cached resources
