@@ -7,6 +7,9 @@ var URLS = [                              // Add URL you want to cache in this l
   '/leonardob.dev/src/css/style.css',
   '/leonardob.dev/src/img/logo.svg',
   '/leonardob.dev/app.js',
+  '/leonardob.dev/favicon.ico',
+  '/leonardob.dev/animated_favicon1.gif',
+  '/leonardob.dev/sw.js',
   '/leonardob.dev/manifest.json'
 ];
 
