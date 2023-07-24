@@ -2,23 +2,23 @@ var APP_PREFIX = 'testServiceworker_';     // Identifier for this app (this need
 var VERSION = 'v1';                        // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [                              // Add URL you want to cache in this list.
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x1024.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x512.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x384.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x192.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x128.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x96.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x72.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/x48.png',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/animated_favicon1.gif',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/favicon.ico',
-  'https://leonardobdev.github.io/leonardob.dev/src/img/logo.svg',
-  'https://leonardobdev.github.io/leonardob.dev/sw.js',
-  'https://leonardobdev.github.io/leonardob.dev/',                               // If you have separate JS/CSS files,
-  'https://leonardobdev.github.io/leonardob.dev/index.html',                     // add path to those files here
-  'https://leonardobdev.github.io/leonardob.dev/src/css/style.css',
-  'https://leonardobdev.github.io/leonardob.dev/manifest.json',
-  'https://leonardobdev.github.io/leonardob.dev/app.js'
+  '/src/img/x1024.png',
+  '/src/img/x512.png',
+  '/src/img/x384.png',
+  '/src/img/x192.png',
+  '/src/img/x128.png',
+  '/src/img/x96.png',
+  '/src/img/x72.png',
+  '/src/img/x48.png',
+  '/src/img/animated_favicon1.gif',
+  '/src/img/favicon.ico',
+  '/src/img/logo.svg',
+  '/sw.js',
+  '/',                               // If you have separate JS/CSS files,
+  '/index.html',                     // add path to those files here
+  '/src/css/style.css',
+  '/manifest.json',
+  '/app.js'
 ];
 
 // Respond with cached resources
