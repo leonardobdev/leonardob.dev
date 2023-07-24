@@ -1,3 +1,6 @@
+body {
+	font-display: optional;
+}
 .bg-black {
 	background: black;
 }
