@@ -1,2 +1,2 @@
 # leonardob.dev
-https://leonardobdev.github.io/leonardob.dev
+https:/leonardob.dev/
