@@ -16,8 +16,8 @@ var URLS = [                              // Add URL you want to cache in this l
   '/leonardob.dev/sw.js',
   '/leonardob.dev/',                               // If you have separate JS/CSS files,
   '/leonardob.dev/index.html',                     // add path to those files here
-  '/leonardob.dev/manifest.json',
   '/leonardob.dev/src/css/style.css',
+  '/leonardob.dev/manifest.json',
   '/leonardob.dev/app.js'
 ];
 
