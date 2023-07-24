@@ -2,6 +2,7 @@ var APP_PREFIX = 'testServiceworker_';     // Identifier for this app (this need
 var VERSION = 'v1';                        // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [                              // Add URL you want to cache in this list.
+  '/leonardob.dev/app.js',
   '/leonardob.dev/src/img/x1024.png',
   '/leonardob.dev/src/img/x512.png',
   '/leonardob.dev/src/img/x384.png',
@@ -17,8 +18,7 @@ var URLS = [                              // Add URL you want to cache in this l
   '/leonardob.dev/',                               // If you have separate JS/CSS files,
   '/leonardob.dev/index.html',                     // add path to those files here
   '/leonardob.dev/src/css/style.css',
-  '/leonardob.dev/manifest.json',
-  '/leonardob.dev/app.js'
+  '/leonardob.dev/manifest.json'
 ];
 
 // Respond with cached resources
