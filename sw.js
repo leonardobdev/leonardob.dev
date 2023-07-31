@@ -11,7 +11,7 @@ var URLS = [
   '/src/img/x72.png',
   '/src/img/x48.png',
   '/src/img/animated_favicon1.gif',
-  '/src/img/favicon.ico',
+  '/favicon.ico',
   '/src/img/logo.svg',
   '/sw.js',
   '/',
