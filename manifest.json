@@ -1,8 +1,8 @@
 {
 	"short_name": "leonardob.dev",
 	"name": "leonardob.dev",
-	"start_url": "/?source=pwa",
-	"id": "/?source=pwa",
+	"start_url": "/",
+	"id": "/",
 	"scope": "/",
 	"icons": [
 		{
